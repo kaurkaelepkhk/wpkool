@@ -23,7 +23,7 @@ add_action('ignis_footer', 'ignis_footer_social_menu', 8);
 function ignis_footer_credits() {
 	?>
 		<div class="site-info">
-			<img href="<?php echo esc_url( __( 'https://i.imgur.com/BNriJVT.jpg', 'ignis' ) ); ?>" rel="nofollow"><?php printf( esc_html__( 'Aitäh, et külastad mu lehte!', 'ignis' ), 'WordPress' ); ?>
+			<img href="<?php echo esc_url( __( 'https://i.imgur.com/BNriJVT.jpg', 'ignis' ) ); ?>" rel="nofollow"><?php printf( esc_html__( 'Aitäh, et külastad mu lehte!', 'ignis' ), 'Image' ); ?>
 			<span class="sep"> | </span>
 
 		</div><!-- .site-info -->
